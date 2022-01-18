@@ -1,3 +1,58 @@
+ 404.html59,2 КБ
+ about.html68,5 КБ
+ blog-2-left-sidebar.html86,1 КБ
+ blog-2-right-sidebar.html86,1 КБ
+ blog-2.html74,1 КБ
+ blog-details.html75,8 КБ
+ blog-left-sidebar.html91,5 КБ
+ blog-right-sidebar.html91,4 КБ
+ blog.html80,4 КБ
+ cart.html96,4 КБ
+ checkout.html96,4 КБ
+ contact.html59,9 КБ
+ по умолчанию.gitignore197 Байт
+ elements-accordion.html65,8 КБ
+ elements-alerts.html64,1 КБ
+ elements-audio.html61,5 КБ
+ elements-banner.html64,6 КБ
+ elements-brands.html64,6 КБ
+ elements-breadcrumbs.html62,2 КБ
+ elements-buttons.html63,5 КБ
+ elements-call-to-action.html64,1 КБ
+ elements-contact-form.html63,1 КБ
+ elements-featured-product-1.html74,4 КБ
+ elements-featured-product-2.html36,9 КБ
+ elements-footer-1.html61,5 КБ
+ elements-footer-2.html61,5 КБ
+ elements-footer-3.html59,6 КБ
+ elements-header-1-no-sticky.html155 КБ
+ elements-header-1-sticky.html155 КБ
+ elements-header-2-no-sticky.html130 КБ
+ elements-header-2-sticky.html130 КБ
+ elements-map.html61,4 КБ
+ elements-newsletter.html63,4 КБ
+ elements-pagination.html64,4 КБ
+ elements-product-tab-1.html155 КБ
+ elements-product-tab-2.html137 КБ
+ elements-progress-bars.html67,6 КБ
+ elements-section-title.html62,8 КБ
+ elements-sidebar-left.html70,9 КБ
+ elements-sidebar-right.html70,9 КБ
+ elements-single-product.html76,5 КБ
+ elements-tab.html66,8 КБ
+ elements-team.html71,5 КБ
+ elements-toggles.html65,8 КБ
+ elements-typography.html64,8 КБ
+ elements-up-comming-product-1.html64,1 КБ
+ elements-up-comming-product-2.html64,2 КБ
+ elements-video.html62,6 КБ
+ index-2.html165 КБ
+ index.html192 КБ
+ индекс.html.bak187 КБ
+ Исходный код (почтовый индекс)
+ Исходный код (tar.gz)
+
+
 <!-- markdownlint-disable MD032 MD033-->
 <!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
 # 🔥 **/**
