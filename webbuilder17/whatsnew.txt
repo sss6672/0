@@ -1,0 +1,464 @@
+What is new in WYSIWYG Web Builder 17?
+The Web is constantly evolving. WYSIWYG Web Builder is kept up to date to provide you with the latest features and tools to create amazing website.
+WYSIWYG Web Builder 17 has more than 125 new features. With special focus on SEO, Ecommerce, Productivity and Creativity.
+
+Lottie Animations
+- Added support for Lottie animations. Display lightweight, scalable, and interactive Lottie animations on your websites. 
+Lottie Animations can be triggered automatically, on click, on hover or on scroll. It is also possible to animate frame by frame based on the scrollbar position (parallax).
+Animations can be used as standalone element or as background / foreground in layers and layout grids.
+
+SEO Assistant
+- New feature: Added SEO Assistant. This new tool helps you make your web pages more search engine friendly. The SEO Assistant scans the page for missing image descriptions, keywords, sitemap.xml/robot.txt, header tags, broken linksmobile support and more. Double clicking one of the reported issues will either open the properties (meta tags, sitemap etc) to fix the issue or select the object in the workspace.
+
+Robots.txt
+- New feature: Added support for 'robots.txt'. Robots.txt is a text file with instructions for search engine crawlers. It defines which areas of a website crawlers are allowed to search.
+You can configure whether to allow /disallow the entire website or configure the rules for each folder individually.
+
+Table Of Contents
+A Table Of Contents is a list of links that lead to different sections on a page. They're particularly useful for long pages, as they highlight the critical sections of a page in order to improve the reader experience. 
+You may know Table Of Content from websites like Wikipedia. Everytime you preview or publish the page, WYSIWYG Web builder will scan the page for heading objects (H1, H2 etc) and update the list. You can also configure the list manually.
+
+Ecommerce
+- New feature: Added third party shopping cart checkout integration for Ecwid, Stripe, Snipcart, Paddle, PayPal, Gumroad and Vibracart Pro. The new ecommerce options are available in the events section. So, basically this means that any image, button, text or menu item that supports events can be turned into a checkout button for the supported Payment gateways.
+Tip: For Snipcart, Vibracart Pro and Ecwid, if you leave the 'Product ID' empty then the button will act as a checkout/show cart button.
+There is also a shortcut button 'Ecommerce' on the Ribbon so you can quickly add ecommerce functionality to a button, image, shape, etc.
+
+Vibracart Pro
+Vibracart Pro is a third-party Ecommerce solution. It supports digital (downloads) and physical products. PayPal and / or Stripe are supported for checkout. It has support for coupons, discounts, multiple shipping plans, VAT and lot of other options.
+Vibracart Pro is a self-hosted, which mean that the cart runs on your own website. So, you will need to install the product on hte server before you can use it.
+
+Ecwid Shopping Cart
+- New feature: With the Ecwid Shopping Cart object you can easily integrate the Ecwid Ecommerce platform into your WYSIWYG Web Builder website. Ecwid is an awesome e-commerce software platform that allows you to add shopping cart functionality to any current site and also get a mobile and Facebook store in one package.  
+Ecwid Shopping Cart is a hosted Ecommerce solution. This means that the cart runs on the Ecwid website. So, you do not have to install anything on your own server.
+Creating a basic account is free. Upgrade options available for advanced functionality (discount coupons, product downloads, Enhanced SEO capabilities and much more).
+
+All functionality is based on standard Ecwid scripts, so your web shop will run on the Ecwid servers. You can setup products (like name, description, categories pricing, styling) via the Ecwid dashboard.
+The following Ecwid widgets are supported:
+
+ECWID - Product Browser 
+This is the main container and it is mandatory; this will contain your products, categories, search results, the checkout options etc.
+
+ECWID - Shopping Bag
+This widget contains the Shopping Bag; when viewing products, you can Drag & Drop them to the shopping your basket.
+
+ECWID - Category Browser 
+Display a list of categories. This controls the content of the Product Browser widget.
+
+ECWID - Search Box
+Search for products. The results will be displayed inside the Product Browser widget.
+
+ECWID - Single Product
+This makes it possible to display a single product. This can be used instead of the Product Browser widget.
+
+Note: for performance and security reasons the workspace does not display a live preview of the webshop. The workspace will display a place holder. So, you will have to preview or publish the page to see the result. 
+
+PayPal Shopping Cart
+- New feature: Added 'PayPal Shopping Cart'. The PayPal Shopping Cart works in combination with the standard PayPal buttons from the Toolbox (Add to Cart and View Cart). But instead of redirecting the users to the PayPal website, the shopping cart will keep the users on your website until they checkout.
+PayPal Shopping Cart will show an icon on the website with a badge indicating the number of items in the cart. Clicking the icon will display a popup with the contents of the cart and a checkout button.
+
+PayPal Buttons
+- New feature: Added new built-in images: buy now, checkout, PayPal logo and acceptance. Al images are available in large, medium and small sizes.
+- New feature: You can now easily add options (combobox) with different prices. 
+1. Add a combobox
+2. set the name to 'amount'
+3. add items, the value is the price
+4. In the 'Options' section of the paypal butyon select the ID of the combobox.
+- New feature: Input fields (editbox, combobox, spinner) can now be used to update the quantity of the PayPal button. The name of the input should be be 'quantity'.
+
+Image Hotspots
+- Improved: The 'Image Hotspots' object is now responsive. Hotspot coordinates will automatically be recalculated when the size of the image changes in a layout grid or breakpoints.
+- Improved: Hotspots now have their own ID. This can be used (for example) to show a Popover Card or a Tooltip object.
+- New feature: Added the ability to show tooltips for hotspots.
+- New feature: Added new 'icon' hotspot. This makes it possible to use icons on the image. Each hotspot can have its own icon and color. It also possible to add a pulsate animation to the icon to grab the attention of the visitor.
+- New feature: Added the ability to import hotspots from SVG files. This can be useful for importing SVG maps, so you do not have to enter the coordinates manually. 
+- New feature: Sometimes the number of points may be too much for a hotspot. In that case, you can use the ‘Simply Path’ option. This will reduce the number of points in the list based on the specified epsilon value.
+
+Date Picker
+- New feature: Added 'focus color' property (for overlay mode). Specifies the outline color for focus state.
+- New feature: Added 'Bootstrap Datepicker' modes: date, time or date & time. This can be used as alternative for the jQuery UI date picker.
+For valid date/time formats please see:
+https://momentjs.com/docs/#/displaying/format/
+- Improved: Colors of editbox and datepicker dropdown can now be set separately.
+
+Input Mask
+- New feature: Added 'Input Mask' functionality to Editbox. An inputmask helps the user with the input by ensuring a predefined format. This can be useful for dates, numerics, phone numbers etc.
+What's the difference of input masks and validation rules?
+input masks are about formatting; validation rules are about correctness of values
+Note: there is no direct link between validation and input mask, so you wil need to make sure that the combination masking and validation makes sense.
+This feature is based on Inputmask by Robin Herbots (https://github.com/RobinHerbots/Inputmask)
+
+Range 
+- New feature: Added 'Range' object for use in forms. Implements a slider-like control for entering numbers. You can set a min and max value and steps to define the number intervals. For example: 0.5
+The Range object also supports events and conditions! With conditions, the range can be linked with another input field, for example an editbox to display the selected value.
+
+Spinner
+- New feature: Added Bootstrap-mode to spinner, in addition to jQuery UI mode.  In Bootstrap mode, up and down buttons are displayed at the left and right side of the input field.
+- New feature: Added support for padding. This controls the left and right offset of the text and also affects the size of the spin buttons in Bootstrap mode.
+- New feature: Added text alignment property: left, center, right.
+- New feature: Added support for conditions. This can be useful to calculate values in a form. For example, calculate the price based on the quantity in a PayPal shopping cart. 
+
+Publish
+- New feature: added the ability to set permissions for secure ftp in "Explore'
+- New feature: added 'check for invalid filenames' during publish. A warning will be added to the publish log when a non-web-safe filename is detected: invalid characters are: space, #, %, <, >, &, {, }, [, ], ?, $, :, ", ', @, +, =, | and !.
+- New feature: Added 'Browsers' button to publish/preview settings. This is a shortcut to the edit preview browsers editor.
+- Removed: wininet/IE dependence, replaced by chilkat FTP library. For better performance and security.
+
+Preview
+- New feature: Added 'Preview Currently Opened Pages'. This generates the HTML the all pages that are currently open in the workspace (in addition to 'preview current page' and 'preview entire website').
+- New feature: Added 'Local Server' preview type. This uses a local server for preview. One of the main reasons why this option was added is to make it possible to preview the website on a mobile device (via your local network) without having to publish the website. Another benefit is that you can add (optional) support for PHP or even setup a local MySQL database server with PHPMyAdmin. 
+PHP, MySQL and PHPMyAdmin should be installed separately. Note that PHP, MySQL support are currently experimental and we cannot give support on the setup of these third party tools.
+
+Site Manager
+- New feature: Added 'pinned' pages. This option displays a list of pinned pages, so you mark the pages you are currently working. Or pin pages that you frequently update.
+- New feature: Added 'recently modified' pages. Displays a list of recently modified pages.
+- New feature: Added 'need review' pages. Displays a list of responsive pages were one or more breakpoints need to be reviewed due to changes to the page or master page.
+- New feature: Added 'Find Referrers' tool. This will display a list of the pages that are linked to the selected page. This may be helpful if you want remove the page but are not sure which pages are referring to it. It can also be used to see which pages use the selected page as master page.
+- Improved: When using drag & drop to rearrange pages, holding the CTRL key will insert the dragged page directly under the page it was dropped on (instead of making it a sub page). The Site Manager will now display an insertion mark to indicate where the page will be inserted.
+
+Responsive Web Design
+- New feature: Added 'need review' functionality. When using breakpoints, modifications in one view may also affect the layout in other breakpoints. For example, if you have added a new object then you may need to change the size or position in another breakpoint. WYSIWYG Web Builder now shows a 'needs review' icon for those breakpoiints to remind you about this. Also, the site manager can displays a list of pages were one or more breakpoints need to be reviewed. As soon as you switch the breakpoint, the 'needs review' state will be cleared.
+
+HTML
+- New feature: Added “Include width and height attributes in images to prevent Cumulative Layout Shifts” option in Tools -> Options -> HTML. This specifies whether to include width and height attributes (width="800" height="600") in <img> tags in addition to CSS. This helps the browser to allocate the correct amount of space in the document while the image is loading. This may be useful to improve Google's lighthouse 'Best Practice' scores. 
+- New feature: Added “Include structured data in navigation objects for improved SEO ranking” option in Tools -> Options -> HTML. Specifies whether to include structure data (schema.org) in navigation items. This may help search engines to better understand the structure of the menus on the page.
+- Improved: Many other small HTML improvements in order to help improve Google LightHouse scores.
+
+Shape Dividers
+- New feature: Added support for vertical shape dividers. This makes it possible to add divider to the left or right side of a layer, layout grid etc.
+- New feature: Added 'offset' option. Useful for moving the divider to the center (50%) of the contuiner. 
+
+Text
+- New feature: Added support for underline styles: double, dotted, dashed, wave
+- New feature: Added the ability to set a different underline color. 
+- New feature: Added RTF table support to text object. Now you can directly insert tables in text. With the ability to set the cell background color, border color and with.
+Columns and rows can be resized with the mouse. The formatting (font family, font size, color etc) can be set for multiple cells at once.
+You can even copy/paste table from Word or Excel. Note however that RTF does not support all Office features.
+
+You can insert a new table via the toolbar, context menu or by entering the following characters
++----------+-------+ and pressing enter.
+
+TAB key
+In a table cell, the Tab key goes to the next cell and Shift+Tab goes to the previous cell (if any).
+If the selection is in the last cell of a table, the Tab key inserts a new row after the last row.
+
+Enter key
+At the end of a table row, the Enter key inserts a new row after the current row.
+
+Important: This is standard Windows functionality. 
+Unfortunately, there are some limitations but we decided to make it available anyway because it may be a useful feature for some users.
+Known issues:
+- resizing columns may reset colors
+- merge and split not supported
+- border colors are sometimes rendered incorrect, but the published HTML is correct.
+We have reported these issues to Microsoft and these are confirmed bugs in Windows. 
+
+Tables
+- New feature: Added new border commands to quickly set the borders of selected cells: color, width, left, right, top, bottom, no borders, all borders, outside borders, inside border etc.
+
+Icons
+- New feature: Added the ability to use multi-color for icons. Each individual part of the icon can now have a different color.
+- New feature: Added 'text-stroke' option to borer styles, adds a stroke to the icon. 
+- New feature: Added built-in support for Material Icons 4.0.0 with more than 800 new icons!
+- New feature: Added support for Material Icons Round, Material Outlined and Material Icons Sharp. These are variants of the Material Icons. These add-ons are available in the 'Free Extras' section: https://www.wysiwygwebbuilder.com/free_extras.html
+- New feature: Added support for Bootstrap Icons (https://icons.getbootstrap.com/) with over 1300 icons. Bootstrap Icons are available as free add-on: https://www.wysiwygwebbuilder.com/free_extras.html
+
+Heading
+- New feature: Added 'text-stroke' option to border styles, using this option adds an outline to the text (instead of a border around the element)
+- New feature: Added support for "background-clip:text" option. The background (color, image, gradient etc.) is clipped to the foreground text.
+TIP: use background video of layer!
+- Improved: Optimized rendering speed of text shadow.
+
+Style Manager
+- New feature: Added 'text-stroke' properties. This make it posisble to use text-stroke for basically any object that supports styles (like standard text and form elements).
+
+Editable Content
+- New feature: Added 'Last modified date' in Admin overview. To remove the 'Last Update' column, just leave the 'Last Update' text field empty.
+- New feature: Added the ability to use multiple "editable content admin' object per project. Each admin object can have its own password and you can select which pages can be edited by the admin.
+Note: if you do not select any pages, then all content pages will be included just like the behavior in the previous version.
+
+Cards
+- New feature: Added the ability to set the default font for new card items. The font family, color and size can be set in the style properties of the card.
+- New feature: Added support for shape dividers. Another great way to decorate your cards!
+- New feature: Added the ability to add a speech bubble-like arrow to cards. Popover -> trigger -> speech bubble. The size of the arrow can be controlled via the 'font-size' property.
+- New feature: Added 'Show close button' option to header item. With close button the user can hide the card. For example, when the card is used in 'portlets' mode of the card container.
+- New feature: Added the ability to set text decoration: none, underline or line-through.
+- Improved: The width of image items can now also be specified in percentages. This makes the size of the image relative to the size of the card, which may be useful for responsive layouts.
+
+Card Container
+- New feature: Added the ability to set the column gap for card decks. This sets the margin for all cards in the container to the specified value. To manually control the margin for each card, set this value to '0'
+- New feature: Added 'grid' mode. Allow you to easily create a grid (columns / rows) with card
+- New feature: Added 'portlets' mode. In portlets mode, the visitor of the website can rearrange cards via drag & drop. Also, cards can be hidden or expanded/collapsed. The state of the portlets will be saved for the next time the user visits the website (via webstorage). The colors of the drag & drop 'place holder' are configurable. The built-in function resetPortletsState() can be used to reset the state of the portlets (via events).
+- New feature: Added 'equal height cards' option.  This specifies whether all cards in the same row should have the same height. If this option is off then cards with different content may have different heights.
+
+Layers, Layout Grid, Flex container
+- New feature: Added support for 'universal-parallax. This can be used as alternative for the standard parallax. This options also works on mobile devices.
+- New feature: Added the ability to select a local file as video background. Also, if you select a background image then this will be used as the 'poster' image. 
+
+Layout Grid
+- New feature: Added 'Fixed width' property for columns. This makes it possible to give one or more grid columns a fixed width. This property is responsive so it can be different in breakpoints.
+
+Dialog / Modal Layer
+- New feature: Added the ability to set the heading tag for the dialog title (applies to Bootstrap only). Previously the title tag was fixed to <h4>, but now you can control this yourself. This may be useful to optimize your wes site’s heading and /or improve Lightspeed scores.
+
+Accordion
+- New feature: Added the ability to set the heading tag for the panel titles.
+
+Flex Grid
+- New feature: Added a handy way to define grid areas using the mouse. Step 1: clear the grid (via template). Step 2: click the first cell of the range and hold down the mouse button. Step 3: move the mouse cursor to the last cell and release the mouse button. A new range will be created automatically created. Repeat these steps to add more areas.
+
+Animation and Transitions
+- New feature: Added support for 'clip-path' property. This is a powerful property that allows you to create shape based animations.
+- New feature: Added 15 new animations using the clip-path property. You can edit the animations via the Animation Manager.
+
+Google Fonts
+- New feature: Added the ability to specify additional parameters for Google Fonts. Example: &display=swap
+- New feature: Check for missing Google fonts when loading a project. This will scan the project for missing fonts and prompt to automatically install the missing fonts.
+- New feature: Added 96 new Google Fonts.
+- Removed: "Use Google Fonts for non-web safe fonts'. Use the Google Font Manager instead.
+
+Shape
+- New feature: Added the ability to justify alignment of shape text.
+- New feature: Added experimental 'shape-inside' text for "Flowchart Connector" shape. Basically, this shape is exactly the same as the standard ellipse shape. However, the text will wrap following the circle inside of the regular rectangular box.
+- Improved: Layout CSS for text now uses always percentages and flexbox for better responsive behavior.
+
+ClipArt / TextArt / Shape
+- New feature: Added the ability to use a video as the background for shapes, clipart and textart! This uses CSS's clip-path (https://caniuse.com/css-clip-path) to clip the video inside the path. Supported video's include YouTube, Vimeo, Pixabay and HTML5 video (mp4, webm).
+- New feature: Added 'fill rule' option (normal / inverse). This makes it possible to create 'cutout' shapes, clipart and text where the shape or text is transparent, instead of the background.
+- New feature: Added the ability to add padding to the shape, clipart or text. This is especially useful when fill rule is set to 'inverse', so you can set some spacing around the shape.
+- Improved: ClipArt, TextArt, Shape objects are now responsive when the output format is set to SVG! So, finally shapes can have different sizes in breakpoints even in fixed/absolute layouts.
+- Improved: Shadow now uses native CSS filters instead of simulated effect. This improves the size, quality and performance of the shape. Also image/svg remains responsive and the effect is animatable (via transition and animations). 
+
+TextArt 
+- New feature: Added 3 new warp styles: circle large, circle medium, circle small. A great way to add circular text. Note: When exported as SVG, the text is responsive.
+
+ClipArt / TextArt / Shape / Polygon / Banner / Text / Merged Object
+- New feature: Added the ability to publish the image in WebP format. This may reduce image file sizes while maintaining the same quality. The published file will use lossless compression.
+The compression level can be set in Tools -> Options -> Publish. with level 1 being the fastest, 9 being the slowest. Fast mode produces larger file size than slower ones.  
+- It is also possible to export in WebP format via the context menu: Save as Image.
+
+Image
+- Improved: Image now uses scrset instead of javascript for the retina image.
+- Improved: Lazy load script has been replaced with native HTML loading="lazy" attribute for better performance. Also applies to photo gallery and rollover images.
+- Improved: 'gaussian blur' shadow effect has been renamed to 'drop shadow' because this is the official CSS name for this effect.
+- Improved: 'drop shadow' now uses native CSS filters instead of simulated effect. This improves the size, quality and performance of the image. Also image remains responsive and the effect is animatable (via transition and animations). 
+
+Picture:
+- New feature: Added support for 'drop shadow'. See image.
+
+Photo Gallery
+- Improved: If you use WebP images in the Photo Gallery then the generated thumbnail images now also will be in WebP format.
+
+Site Tree
+- Improved: The Site Tree now uses Direct2D rendering instead of MSHTML. This results in faster rendering and more control over the layout.
+- Improved: Responsive fonts.
+- New feature: Added padding support.
+- New feature: Added 'indent' property to set offset for text items.
+- New feature: Added 'full width' property for use with layout grids.
+- New feature: Added 'text alignment' option.
+- New feature: Added support for custom border and border images.
+- New feature: Added the ability to rotate the object.
+- New feature: Added the ability to set the line height.
+
+YouTube / Vimeo / HTML5 Video
+- New feature: Added support for Portrait aspect ratio 9:16.
+
+Video Player
+- New feature: wb.videoplayer.min.js has been replaced with plyr.min.js, so the video player now has many extra options: responsive, sub title support, aspect ratio and lots of styling options!
+
+Embed
+- The 'plug-in' object has been renamed to 'embed'.
+- deprecated HTML options have been removed.
+- Added 'type' property to set the media type.
+
+Login Tools - User Redirect
+- New feature: Added the ability to redirect with user roles. Use brackets, to indicate that you want to use a user role. For example: {guest] or [admin]
+
+Login Tools - Login
+- New feature: Added 'Allow Login with Email Address' option. Specifies whether the user can also login with the email address.
+
+Conditions
+- New feature: Added 'range' condition. And easier way to test whether the numeric input is within a range (min / max).
+- New feature: Added 'set choices' action.  This lets you "chain" multiple form comboboxes (select lists) together so that the selection in a "parent" list can tailor the options available in a "child" list.
+Options should be separated by a comma: option1,option2,option3. By default, the text is also used as the value. But you can also configure a separate value: option1=1,option2=2,option3=3
+
+Events
+- New feature: Added drop down to 'Events' button with new commands: Object Events, Page Events and All Events.
+Object Events, opens the event dialog for the currently selected object (or page).
+Page Events, opens the event dialog for the page.
+All events, open the events dialog with a list of all the events of the page and objects. This may be useful if you do not remember to which object(s) you added events.
+
+Link Manager (previously known as 'Verify Links')
+- New feature: Added the ability to verify internal links. This option verifies whether linked pages still exist in the project. If not, then you can fix or remove the link directly from within the Link Manager.
+- New feature: Added 'Remove' button. This add the ability to remove the link for the selected items.
+- Improved: The Link Manager no longer depends on wininet to verify the links. This makes verifying links faster and more reliable.
+
+Links / Navigation
+- New feature: Added rel="noopener" and rel="noreferrer" options to links. 
+This is especially useful when opening untrusted links, in order to ensure they cannot tamper with the originating document via the Window.opener property.
+'noopener' instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+'noreferrer' means that no referer header will be included. Additionally, has the same effect as noopener. 
+- New feature: Added the ability to add an "aria-label" to make links more accessible to people with disabilities. There is no dedicated property, but you can specify the aria-label text in the 'Title' property by using the ^ character.
+For more information about aria-label is available here : https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html
+
+Example:
+Tooltip text^Label for screenreaders
+This will result in the following HTML: <a href="./index.html" title="Tooltip text" aria-label="Label for screenreaders">This is a link</a>
+
+Carousel / Slideshow / Snap Scroll
+- Improved: The built-in pagination dots now use CSS instead of images. This slightly reduces the size and load time of the page.
+- New feature: Added 8 new pagination dot styles: Dot 2 Stroke, Fill In, Fill Up, Puff, Scale Down, Scale Up, Shadow, Small Dot
+
+Themeable Menu
+- Improved: Added support for multilevel drop down menus. Note: use with 'click to open' only.
+- New feature: Added the ability to set the padding for sub items in mobile mode.
+- New feature: Added 'Arrow spacing' option. Specifies the spacing between the text and the drop down arrow.
+- New feature: Added 'Use Split Button' option. A split button is a hybrid between a button and a drop down menu. It displays a drop down menu when the user click the arrow, but also offers one-click access to a default choice that doesn't require opening the menu. Note: split buttons only work with 'click to open submenus'. Hover is not supported.
+
+Overlay Menu
+- New feature: Added 'Expanded' option. This makes it possible to display the menu fully expanded. For example, to display a tree like navigation. When the menu is full expanded the main items with a sub menus can also have links.
+
+Responsive Menu
+- New feature: Added 'Arrow offset' option. This specifies the spacing between the text and arrow (for menu item with sub levels). It is also possible to set a negative offset. In that case the arrow will positioned at the right side of the menu item.
+
+Breadcrumb
+- Improved: Added support for structured data (schema.org), so search engines can better understand the structure of the Breadcrumb navigation. More information: https://schema.org/BreadcrumbList
+- Improved: The separator padding is now responsive so it can be different in breakpoints. 
+
+Go Menu
+- New feature: Added border-radius property.
+
+CSS Menu / Text Menu
+- Improved: The "Spacing" of (main) menu items is now responsive so it can be different in breakpoints. This may be helpful to increase spacing between links on mobile devices (and prevent "Tap targets are too small" warnings in Google's Lighthouse).
+
+Text Menu
+- New feature: Added 'Full Width' property. Display the menu full width in Layout Grids.
+
+ListView
+- New feature: Added an optional 'Search filter'. This adds a search filter bar to the listview.
+
+Navigation
+- Improved: If a navigation object (menubar, panel menu etc) is selected then the 'Link' button will open the object's properties.
+
+Page Properties
+- New feature: Added support for 'prefers-reduced-motion' via "Disable CSS animations and transitions for prefers-reduced-motion". This option will disable CSS animations and transitions if 'Reduce motion' is enabled in the user's system settings.
+In Windows 10 you can disable animation via Control Panel -> Turn off all unnecessary animations'. On the Mac: Accessibility -> Display -> Reduce motion
+- New feature: Added support for the ‘slim’ version of jQuery. The 'slim' version excludes the ajax and effects modules and is approximately 17Kb smaller than the full version of jQuery. You can select the slim version if you are just using basic features like simple events (without effects) or Bootstrap based widgets.
+jQuery UI widgets require the full version because they use the effects module. Also, Instagram integration uses ajax so this also require the full version. So, make sure test all the functionality of the page to make sure everything works correct with the slim version.
+
+Themeable Button
+- New feature: Added 'show checkmark' option for checkbox and radio button mode. This specifies whether the optional checkmark is displayed on the button.
+- Improved: The button no longer uses jQuery and jQuery UI themes when the button type is set to normal, reset, submit or link. 'Use jQuery UI Theme' should be off.
+
+Dark Mode
+- New feature: Added a toggle button to quickly switch between Light and Dark mode.
+
+Change Case
+- New feature: Added ‘Change case’ to the context menu of standard text input boxes. You can now easily change the capitalization, or case, of text in an input box via the context menu (right click). 
+
+Lorem Ipsum
+- New feature: Added ‘Lorem Ipsum’ insert options to the context menu of text input boxes. 
+
+Easing
+- Improved: When using Easing effects in animations (for example in Bookmarks, Panel Menu, SVG animations, Snap Scroll etc), the HTML generator will now only include the jQuery Effects module (11KB) instead of the full jQuery UI library (248KB)!
+
+Other important changes
+jQuery Mobile has been removed from the software. This third party library is no longer supported because it is outdated (last update: 2014).
+jQuery Mobile page will be converted to standard pages with Layout Grids.						
+Important note:  The converted pages will not look exactly the same as before so please review the result before re-publishing these pages!
+
+Support for SVG fonts (@font-face ) has been removed. This feature is deprecated/obsolete and should no longer be used.
+https://caniuse.com/mdn-css_at-rules_font-face_svg_fonts
+
+10/01/2021 - Version 17.0.1
+- Fixed: Issue with gradient color alpha in backgrounds.
+- Fixed: Issue with SVG icon alignment in breakpoints.
+- Fixed: Issue with universal-parallax in layer with breakpoints (display:inline should be display:block)
+- Fixed: Issue with PayPal custom images.
+- Improved: Added support for 3-byte Unicode filenames in Baby Web Server (for local server preview).
+- Improved: Added RTL rendering support to Site Tree and Table of Contents.
+- Improved: Several small improvements related to table HTML output.
+- Improved: Several performance improvements related to publishing text and tables (global RTF control table, font query cache). 
+
+10/08/2021 - Version 17.0.2
+- Fixed: Issue with success and error page with Stripe Ecommerce integration.
+- Fixed: Issue with Table Of Context when using incorrect heading order.
+- Fixed: Issue with Ecwid Single Products responsive height.
+- Fixed: Issue with bcrypt and Change Password form.
+- Improved: Added support for HTML5 semantic tags in Table of Contents.
+- Improved: Added aria-labelledby attribute to Table of Contents when a label is used.
+- Improved: Added the ability to use Cards as bookmark.
+- Improved: Double clicking 'Page has no header tags' in the SEO assistant will now open the online tutorial for more details.
+
+10/22/2021 - Version 17.0.3 
+- Fixed: Some background properties of the Breadcrumb are not saved.
+- Fixed: Issue with video background (local file) in Layout Grid.
+- Fixed: Issue with active color of Breadcrumb.
+- Fixed: Issue with command state (enable/disable) in edit context menu.
+- Fixed: Issue with drop shadow in Shapes with hover enabled.
+- Improved: Optimized link verification in SEO Assistant and Link Manager.
+- Improved: Simplified HTML attribute encoding for Unicode text in breadcrumb.
+- Improved: Implemented workaround for missing icon preview in 'Tell me more'.
+- Improved: Added the ability to override the output folder for Extensions via the Object Manager -> Assets Folder
+
+11/05/2021 - Version 17.0.4
+- Fixed: Tables with classic HTML output do not have font-size.
+- Improved: Added the ability to hide the wrap text object in the default view.
+- Improved: Added support for Global Replace in Banners and PNG output.
+- Improved: Global Replace now also works for Cards with different fonts sizes in breakpoints.
+
+11/26/2021 - Version 17.0.5
+- Improved: Several improvements related to icons in extensions created with Extension Builder.
+- Improved: Updated plyr scripts to version 3.6.9
+- Improved: SEO Assistant now activates 'wait' cursor when processing the page, to indicate that it's busy.
+- Improved: 'Use hover style to indicate current page' is now also supported in sub menus of the CSS menu.
+- Improved: When using stencils and shapes on webp images, the output format is now also webp (instead of png).
+- Improved: The progress bar is now updated in smaller steps during publishing/uploading large files, instead of updating the status only after the file has been uploaded completely.
+- Fixed: In the SlideShow/Carousel it is not possible to switch to full width. The corresponding function is hidden by the 'Settings' button.
+- Fixed: Issue with webstorage in nested layout grid forms.
+- Fixed: When filter/search in the Site Manager is active, then it should not be possible to move pages because may corrupt the site structure.
+- Fixed: Issue with font-size in tables with responsive text.
+
+12/20/2021 - Version 17.1.0 (Merry Christmas)
+- Improved: Added support for 'Font Awesome 6 Pro Regular' (internal mapping to 'Font Awesome 6 Pro'). Note that we are not allowed to distribute the font library, so this is only for licensed users of 'Font Awesome 6 Pro'.
+- Improved: Implemented several improvements in the login tools.
+- Improved: Mega Menu ARIA support improvements.
+- Improved: Mega Menu color synchronisation in breakpoints.
+- Improved: 'Button only' items in Mega Menus are now also supported in mobile/responsive mode.
+- Improved: Ribbon controls appearance and paddings in high DPI mode.
+- Improved: Smart docking markers are DPI-aware now.
+- Improved: Added Ribbon tab highlighting and activation animations to Office 2019 themes.
+- Improved: Upgraded UI framework with many UI improvements like contextual Ribbon tab appearance, Office 2019-like drop down arrows, all drop down controls are now themed (for dark themes), context menu appearance under Windows 11 etc.
+- Improved: Upgraded to PHP Mailer version 6.5.3. More details: https://github.com/PHPMailer/PHPMailer/blob/master/changelog.md
+- Improved: Windows 11 compatiblity.
+- New feature: Added (experimental) support for multi-line text <br> in CSS menu.
+- New feature: Added support for rounded corners under Windows 11. This behavior can be controlled in Tools -> Options -> User Interface -> Rounded Corners.
+- New feature: Added 'Windows Scenic' visual scheme (Tools -> Options -> User Interface). This renders windows and controls with the standard Windows style.
+- New feature: Added support for smooth scrolling (bookmarks) to the Heading object. This may be useful when used in combination with the Table Of Content object.
+- New feature: Added new height options to flex container: 75vh, 50vh, 33vh, 25vh and 10vh
+- New feature: Added padding support to Cards.
+- New feature: Added 'Remove All' option to Combobox, to quickly remove all items from the list.
+- New feature: Added the ability to display a 'Download' button in the Plyr video player.
+- New feature: Added 'Full Width' and 'Maximum Width' properties to Login Name. This can be useful to limit the size of avatar images in layout grids.
+- New feature: Added sandbox support to the PayPal shopping cart.
+- New feature: Added the ability to show a delete confirmation prompt ('Delete Confirmation') to the Login Admin to prevent accidently deleting users from the database.
+- New feature: Added 'sponsored' and 'ugc' values to rel attribute in links to qualify outbound links to Google. More information: https://developers.google.com/search/docs/advanced/guidelines/qualify-outbound-links?hl=en
+- New feature: Added the ability to use multiple rel values in links (SEO). For example, nofollow noopener
+
+01/01/2022 - Version 17.1.1 (Happy New Year)
+- Improved: Added recent colors to color pickers in Shape text.
+- Improved: Added the ability to sort the 'Status' column in the Link Manager.
+- Fixed: Issue with links in some extensions.
+- Fixed: Issue with URL history in link properties.
+- Fixed: Issue with "Make Default" Page Properties -> Icons.
+
+01/16/2022 - Version 17.1.2
+- Fixed: Issue with line-break after 'image:svg+xml;'
+- Fixed: Timing issues with PayPal Shopping Cart and jQuery v3.
+- Fixed: Incorrect 'Bookmark' tab title in Heading properties.
+- Fixed: Compatibility issue with CMS and PHP8.
+- Improved: Flexcontainer direction property now also supports 'column-reverse' and 'row-reverse' in breakpoints.
+- Improved: Vertical pagination (center) of the Carousel/SlideShow is now responsive.
+
+01/29/2022 - Version 17.1.x (hot-fix)
+- Improved: Added 'width' and height' attributes to navigation images in Carousel and SlideShow (Google Lighthouse improvement).
+- Improved: Moved 'vcpopup.css' (Vibracart Pro) between head tags.
